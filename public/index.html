@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  <title>Silva Juarez Alejandro</title>
+</head>
+
+<body>
+
+  <style>
+    body{
+      background-color: rgb(218, 241, 241);
+    }
+
+
+  </style>
+      <p class="fs-1 text-primary" style="text-align: center;">Chat Node Js</p>
+      
+      <p class="fs-3 text-info" style="text-align: center;">!Unete a la conversación ahora mismo! </p>
+      
+    
+  
+  <div class="position-absolute top-50 start-50 translate-middle" id="container" style="align-items: center;">
+
+  <div class="card" style="width: 18rem; background-color: rgb(251, 252, 244);"  >
+    <div id="chat">
+      <div id="salida">
+
+      </div>
+      <div id="notificaciones">
+
+      </div>
+</div>
+    <input type="text" id="usuario" placeholder="Usuario" class="text-success" required>
+    <br>
+    <input type="text" id="mensaje" placeholder="Mensaje" class="text-success" required>
+    <br>
+    <button class="btn btn-primary"  id="enviar">
+      Enviar
+    </button>
+
+
+  </div>
+  </div>
+  <ul id="not"></ul>
+
+  <script src="js/socket.io.js"></script>
+  <script src="js/logica.js" charset="utf-8"></script>
+  <script src="js/validate.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
