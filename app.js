@@ -5,8 +5,8 @@ var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
 //Inicio de servidor más pro
-app.set('port', process.env.PORT || 8080);
-server.listen(app.get('port'), () => console.log('Servidor iniciado en 8080'));
+app.set('port', process.env.PORT || 3000);
+server.listen(app.get('port'), () => console.log('Servidor iniciado en 3000'));
 
 app.use(express.static('public'));
 

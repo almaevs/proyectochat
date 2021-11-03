@@ -1,7 +1,7 @@
 {
   "name": "socket.io",
   "version": "1.0.0",
-  "description": "Silva Juarez Alejandro",
+  "description": "Almita",
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
@@ -16,6 +16,14 @@
     "dev": "nodemon app.js"
   },
   "keywords": [],
-  "author": "Alma Erika Vázquez Sánchez",
-  "license": "ISC"
+  "author": "Almita",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almaevs/chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/almaevs/chat/issues"
+  },
+  "homepage": "https://github.com/almaevs/chat#readme"
 }

@@ -1,4 +1,4 @@
-var socket = io('window.location.hostname');
+var socket = io();
 var list = document.querySelector('#not');
 //Elementos de HTML
 let mensaje = document.getElementById('mensaje');
